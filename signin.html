@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/signin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>회원가입</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <h3>회원가입</h3>
+      <form action="#">
+        <ul>
+          <li>
+            <label for="name">
+              <span style="color: #757575"><i class="fa fa-user"></i></span>
+              <!-- <img src="images/user-large-solid.svg" alt="이름" /> -->
+              <input type="text" id="name" placeholder="이름" />
+            </label>
+          </li>
+          <li>
+            <label for="email">
+              <span style="color: #757575"
+                ><i class="fas fa-envelope"></i
+              ></span>
+              <!-- <img src="images/envelope-solid.svg" alt="이메일" /> -->
+              <input type="email" id="email" placeholder="이메일" required />
+            </label>
+          </li>
+          <li>
+            <label for="pw">
+              <span style="color: #757575"><i class="fas fa-lock"></i></span>
+              <!-- <img src="images/lock-solid.svg" alt="비밀번호" /> -->
+              <input type="password" id="pw" placeholder="비밀번호" />
+            </label>
+          </li>
+          <li>
+            <label for="pwc">
+              <span style="color: #757575"><i class="fas fa-lock"></i></span>
+              <!-- <img src="images/lock-solid.svg" alt="비밀번호 확인" /> -->
+              <input type="password" id="pwc" placeholder="비밀번호 확인" />
+            </label>
+          </li>
+        </ul>
+        <div class="button">
+          <button class="signin">가입하기</button>
+          <input type="button" value="공지사항 창 열기">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
